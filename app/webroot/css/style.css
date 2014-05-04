@@ -1,0 +1,115 @@
+body {
+
+	/*background-image: url('../img/background.jpg');
+	background-repeat:repeat;*/
+	background-size: cover;
+	background-image: url('../img/background.jpg'); 
+	/* background-color: #303030; */
+	padding: 0px;
+	margin: 0px;
+	z-index: 1;
+}
+
+.menu_border{
+	height: 100%;
+	width: 31px;
+	background-color: white;
+	position: relative;
+	float: right;
+}
+
+.menu_left{
+	height: 100%;
+	width: 200px;
+	position:absolute;
+	background-color: #111112;
+	margin-left: -169px;
+}
+
+.menu_text{
+	height: 70px;
+	width: 13px;
+	position: absolute;
+	background-image: url('../img/openMenu_black.png');
+	top: 50%;
+	margin-left: 10px;
+	margin-top: -35px;
+}
+
+.all{
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	position: absolute;
+}
+
+.menu{
+	position: absolute;
+	top: 50%;
+	height: 120px;
+	margin-top: -130px;
+}
+
+.menu ul{
+	list-style: none;
+}
+
+.menu li{
+	padding-top: 15px;
+	font-size: 15px;
+	background: url('../img/dotted_menu_line.png') 0 bottom repeat-x;
+	padding-bottom: 9px;
+	text-align: center;
+}
+
+.menu a{
+	text-decoration: none;
+	color: #ABABAB;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.wrap{
+	position: absolute;
+	width: 580px;
+	height: 100%;
+	left: 50%;
+	margin-left: 380px;
+	background: url('../img/back.png');
+}
+
+.top{
+	height: 50%;
+	width: 459px;
+	margin-top: -80px;
+	background: url('../img/col_line.png') 0 bottom no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bottom{
+	height: 50%;
+	width: 459px;
+	margin-top: -20px;
+	background: url('../img/col_line.png') 0 bottom no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main_content, #about_content, #music_content, #gallery_content, #contact_content{
+	display: none;
+}
+
+.loading{
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	left: 50%;
+	margin-left: -20px;
+	display: none;
+	background: url('../img/loading.gif');
+	z-index: 10;
+}
+
+/* #content{
+	display: none;
+} */
